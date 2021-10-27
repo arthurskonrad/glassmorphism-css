@@ -21,10 +21,17 @@
   <body>
     <div class="container">
       <section class="flex-center">
-        <div class="card card--background flex-center">
+        <div class="card card--background flex-center draggable">
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci laborum odio, sint officia praesentium explicabo earum tempore, quo ipsum nemo similique temporibus repudiandae architecto debitis repellat consequatur? Necessitatibus, voluptatum dolores?</p>
         </div>
       </section>
+
+      <footer class="footer">
+        <div class="card card--background flex-center">
+          <p>Photo by <a href="https://unsplash.com/@wgzhai?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Wengang Zhai</a> on <a href="https://unsplash.com/s/photos/pattern?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+          </p>
+        </div>
+      </footer>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
@@ -32,7 +39,7 @@
 
     <script>
       $(function() {
-        $( ".card" )
+        $( ".draggable" )
           .draggable({
             scroll: false
           })
