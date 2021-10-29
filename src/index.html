@@ -19,14 +19,14 @@
 
   <body>
     <div class="container">
-      <section class="flex-center">
-        <div class="card card--background flex-center draggable">
+      <section class="flex-center flex-column">
+        <div data-draggable class="card-cross-browser card-cross-browser__background flex-center mb-4">
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci laborum odio, sint officia praesentium explicabo earum tempore, quo ipsum nemo similique temporibus repudiandae architecto debitis repellat consequatur? Necessitatibus, voluptatum dolores?</p>
         </div>
       </section>
 
       <footer class="footer">
-        <div class="card card--background flex-center">
+        <div class="card-cross-browser card-cross-browser__background flex-center">
           <p>Photo by <a href="https://unsplash.com/@wgzhai?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Wengang Zhai</a> on <a href="https://unsplash.com/s/photos/pattern?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
           </p>
         </div>
@@ -38,7 +38,7 @@
 
     <script>
       $(function() {
-        $( ".draggable" )
+        $('[data-draggable]')
           .draggable({
             scroll: false
           })
