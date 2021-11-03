@@ -1,3 +1,8 @@
+:root {
+  --background: url('/assets/wengang-zhai-GU4F3Gbts_A-unsplash.jpg');
+  --background-blur: url('/assets/wengang-zhai-GU4F3Gbts_A-unsplash-blur.jpg');
+}
+
 body {
   min-height: 100vh;
 
@@ -6,7 +11,7 @@ body {
   align-items: center;
   flex-direction: column;
 
-  background-image: url('/assets/wengang-zhai-GU4F3Gbts_A-unsplash.jpg');
+  background-image: var(--background);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -14,7 +19,19 @@ body {
   background-color: #bdc3c7;
 
   font-family: 'Zen Kurenaido', sans-serif;
-  font-size: 24px;
+  font-size: 1.5rem;
+  line-height: normal;
+
+  color: white;
+  text-shadow: 2px 2px 3px black;
+
+  transition: 0.2s ease-in-out;
+}
+
+.header {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
 }
 
 .container {
@@ -38,6 +55,6 @@ body {
 
 .footer {
   position: fixed;
-  bottom: 20px;
-  right: 20px;
+  bottom: 1rem;
+  right: 1rem;
 }

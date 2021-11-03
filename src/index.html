@@ -20,6 +20,14 @@
   </head>
 
   <body>
+    <header class="header">
+      <div data-random class="card-cross-browser card-cross-browser__background flex-center">
+        <h2>
+          Random
+        </h2>
+      </div>
+    </header>
+
     <div class="container">
       <section class="flex-center flex-column">
         <div data-draggable class="card-cross-browser card-cross-browser__background flex-center mb-4">
@@ -33,7 +41,7 @@
 
       <footer class="footer">
         <div class="card-cross-browser card-cross-browser__background flex-center">
-          <p>Photo by <a href="https://unsplash.com/@wgzhai?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Wengang Zhai</a> on <a href="https://unsplash.com/s/photos/pattern?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+          <p>Photo by <a data-author-link href="https://unsplash.com/@wgzhai?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Wengang Zhai</a> on <a data-source-link href="https://unsplash.com/s/photos/pattern?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
           </p>
         </div>
       </footer>
@@ -41,6 +49,9 @@
 
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+
+    <script src="./scripts/images.js"></script>
+    <script src="./scripts/main.js"></script>
 
     <script>
       $(function() {
