@@ -1,6 +1,6 @@
 :root {
-  --background: url('/assets/wengang-zhai-GU4F3Gbts_A-unsplash.jpg');
-  --background-blur: url('/assets/wengang-zhai-GU4F3Gbts_A-unsplash-blur.jpg');
+  --background: url('/assets/alex-shutin-kKvQJ6rK6S4-unsplash.jpg');
+  --background-blur: url('/assets/alex-shutin-kKvQJ6rK6S4-unsplash-blur.jpg');
 }
 
 body {
@@ -16,7 +16,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  background-color: #bdc3c7;
 
   font-family: 'Zen Kurenaido', sans-serif;
   font-size: 1.5rem;

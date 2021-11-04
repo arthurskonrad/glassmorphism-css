@@ -4,12 +4,11 @@
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
-  background-color: #34495ea1;
 
   padding: 1rem;
 
   border-radius: 1rem;
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  border: 2px solid rgba(255, 255, 255, 0.2);
   box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
 
   cursor: pointer;
@@ -18,5 +17,5 @@
 }
 
 .card-cross-browser.card-cross-browser__background {
-  background-image: linear-gradient(0deg, rgba(255, 255, 255, .35), rgba(255, 255, 255, .35)), var(--background-blur);
+  background-image: linear-gradient(0deg, rgba(255, 255, 255, .20), rgba(255, 255, 255, .20)), var(--background-blur);
 }
